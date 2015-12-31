@@ -1,0 +1,12 @@
+# Site settings
+title: In which I talk about machines
+email: nadja@ef.gy 
+description: > # this means to ignore newlines until "baseurl:"
+    Yet another random tech blog in which I talk about problems I solved and stuff I found interesting. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://machineperson.github.io" # the base hostname & protocol for your site
+twitter_username: machine_person
+github_username:  machineperson
+
+# Build settings
+markdown: kramdown
