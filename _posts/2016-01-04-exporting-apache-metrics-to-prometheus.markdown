@@ -20,20 +20,24 @@ $ sudo apt-get install golang
 ```
 
 Go needs to know where your Go workspace is so it can install packages, and you need to set that manually. I just created a subdirectory in my home directory, but you can put this wherever you want. 
+
 ```
 $ mkdir ~/go
 ```
 
 `go get` needs you to set an environment variable called `GOPATH` to point to your workspace, so put this in your `.bashrc` or equivalent:
+
 ```
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
+
 The `GOROOT` variable points to the location the Go tools are installed - if you didn't install them to a custom location, you don't have to set this manually. 
 
 ## Install 
 
 Now you should be ready to install the Apache exporter:
+
 ```
 $ go get github.com/neezgee/apache_exporter
 ```
