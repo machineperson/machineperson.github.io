@@ -27,11 +27,8 @@ $ mkdir ~/go
 
 `go get` needs you to set an environment variable called `GOPATH` to point to your workspace, so put this in your `.bashrc` or equivalent:
 
-```
-export GOPATH=$HOME/go
-
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-```
+    export GOPATH=$HOME/go
+    export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 The `GOROOT` variable points to the location the Go tools are installed - if you didn't install them to a custom location, you don't have to set this manually. 
 
