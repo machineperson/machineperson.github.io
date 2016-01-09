@@ -6,7 +6,7 @@ categories: monitoring
 ---
 
 
-There are two kinds of tech companies: those that have monitoring, and those that have not had a major outage yet. I work for a startup that is in the second category, and since I'm the closest thing to a Site Reliability the company has, it's my job to make sure we have monitoring before disaster strikes.
+There are two kinds of tech companies: those that have monitoring, and those that have not had a major outage yet. I work for a startup that is in the second category, and since I'm the closest thing to a Site Reliability Engineer the company has, it's my job to make sure we have monitoring before disaster strikes.
 
 Enter [Prometheus][prometheus], an open source monitoring system developed by ex-Google engineers. Since we're a SaaS company, it seemed like a good idea to start with monitoring our web servers. For Prometheus itself as well as basic system stats, there are [Debian packages][robust-perception-deb] put together by [Robust Perception][robust-perception] which came in quite handy. That's not quite enough if you're interested in how your actual web servers are doing though, so I was pleased to find out that there is an [apache-exporter][apache-exporter] module that'll export Apache stats for you. 
 
