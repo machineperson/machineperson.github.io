@@ -32,6 +32,10 @@ $ mkdir ~/go
 
 The `GOROOT` variable points to the location the Go tools are installed - if you didn't install them to a custom location, you don't have to set this manually. 
 
+Reload your config with the new environment variables by running
+    $ source ~/.bashrc
+
+
 ## Install 
 
 Now you should be ready to install the Apache exporter:
