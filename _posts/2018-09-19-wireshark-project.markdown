@@ -37,7 +37,6 @@ The white LEDs are connected in 6 parallel strings of 4 LEDs, because there wasn
 ![sharky-diagram]({{ site.url }}/assets/sharky-diagram.png) 
 
 After I was fairly convinced that my resistor math was correct enough that nothing would explode, I set out to solder everything together. 
-![sharky-soldering]({{ site.url }}/assets/sharky-diagram.png) 
 
 I got a lot of practice soldering wires together that day... which I also needed. But eventually it all came together.
 
@@ -48,7 +47,7 @@ The code to drive the LEDs was actually quickest to do. I used a prerecorded pac
 
 The code runs on the Raspberry Pi that is connected to the LEDs. It reads a packet capture file, divides it into segments and does statistics on the transport-layer protocols that are used in each segments. It lights up the LEDs for a certain percentage of each protocol occurring - white for TCP, red for UDP. There's a handy Python library to control the GPIO pins on a Pi, which is helpful.
 
-The Github repo is [here][github] - note: I had to do a couple of last-minute fixes after putting everything together, and at that point the Pi was no longer connected to a network, so what's on Github is not *exactly* what runs on the Pi (I need to get around to merging those changes) and will not work out of the box straight away. Sorry - I'm working on fixing that.
+The Github repo is [here][code] - note: I had to do a couple of last-minute fixes after putting everything together, and at that point the Pi was no longer connected to a network, so what's on Github is not *exactly* what runs on the Pi (I need to get around to merging those changes) and will not work out of the box straight away. Sorry - I'm working on fixing that.
 
 
 # Ideas for Sharky 2.0
