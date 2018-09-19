@@ -8,7 +8,7 @@ categories: hardware
 I built a project for [Dublin Maker][dublinmaker] this year. It's a real-life Wireshark (in reference to the [network traffic analysis software][wireshark]) with LEDs that light up based on network traffic.
 
 This is Sharky:
-![sharky]({{ site.url }}/assets/sharky.png) 
+![sharky]({{ site.url }}/assets/sharky.png 'Wire sculpture of a shark with glowing red LED eyes and white LEDs around the mouth') 
 
 I gave a demo of the project at [Pyladies Dublin][pyladies] last night and promised a write-up on how I built it to some people, so here it is.
 
