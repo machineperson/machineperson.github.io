@@ -17,10 +17,10 @@ I gave a demo of the project at [Pyladies Dublin][pyladies] last night and promi
 Building the wire model was the part that easily took the longest. I used garden wire that I bought on Amazon - I didn't know what thickness I would need so I ordered a few different ones, but I ended up using 1.2mm, 0.7mm and 0.5mm wire. I got a good deal on it so I bought about 200m, which is way more than I ended up using. 
 I had never built a wire sculpture before, but I decided to just go for it and figure it out as I went. I started with a couple of 1.2mm "anchor" wires defining the rough shape:
 
-![sharky-progress1]({{ site.url }}/assets/sharky-progress1.jpg) 
+![sharky-progress1]({{ site.url }}/assets/sharky-progress1.jpg 'Early stages of a wire sculpture') 
 
 and then wove more of the thinner (0.7mm and later 0.5mm) wires between them to create a mesh to fill it in.
-![sharky-progress2]({{ site.url }}/assets/sharky-progress2.jpg) 
+![sharky-progress2]({{ site.url }}/assets/sharky-progress2.jpg 'Wire sculpture of a shark, with the body covered in a mesh made of wire') 
 This is my progress after working on it for the most part of a day, at a "finish your project" hackathon at [TOG][tog].
 
 I continued to come in for a few hours here and there to work on the sculpture a bit more, so all in all I spent about a week building it. When I finally realised that I still had all the electronics to do and had to declare the sculpture finished, I sprayed it with clear acrylic spray paint in order to insulate it.
@@ -34,7 +34,7 @@ The current incarnation of Sharky has 2 colours of LEDs that are each driven by 
 
 The white LEDs are connected in 6 parallel strings of 4 LEDs, because there wasn't enough voltage to go around to serialise them all. I only had 2 red LEDs for the eyes, so I could just connect them in series. Below is the circuit diagram I drew up - in the end I used slightly different resistor values than what's on the diagram because I had to work with what was in my resistor kit, but this circuit is pretty forgiving so a few ohms give or take don't really make a difference. 
 
-![sharky-diagram]({{ site.url }}/assets/sharky-diagram.png) 
+![sharky-diagram]({{ site.url }}/assets/sharky-diagram.png 'Circuit diagram') 
 
 After I was fairly convinced that my resistor math was correct enough that nothing would explode, I set out to solder everything together. 
 
