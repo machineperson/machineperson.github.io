@@ -17,10 +17,10 @@ I gave a demo of the project at [Pyladies Dublin][pyladies] last night and promi
 Building the wire model was the part that easily took the longest. I used garden wire that I bought on Amazon - I didn't know what thickness I would need so I ordered a few different ones, but I ended up using 1.2mm, 0.7mm and 0.5mm wire. I got a good deal on it so I bought about 200m, which is way more than I ended up using. 
 I had never built a wire sculpture before, but I decided to just go for it and figure it out as I went. I started with a couple of 1.2mm "anchor" wires defining the rough shape:
 
-![sharky-progress1]({{ site.url }}/assets/sharky-progress1.png) 
+![sharky-progress1]({{ site.url }}/assets/sharky-progress1.jpg) 
 
 and then wove more of the thinner (0.7mm and later 0.5mm) wires between them to create a mesh to fill it in.
-![sharky-progress2]({{ site.url }}/assets/sharky-progress2.png) 
+![sharky-progress2]({{ site.url }}/assets/sharky-progress2.jpg) 
 This is my progress after working on it for the most part of a day, at a "finish your project" hackathon at [TOG][tog].
 
 I continued to come in for a few hours here and there to work on the sculpture a bit more, so all in all I spent about a week building it. When I finally realised that I still had all the electronics to do and had to declare the sculpture finished, I sprayed it with clear acrylic spray paint in order to insulate it.
